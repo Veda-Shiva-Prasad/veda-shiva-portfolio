@@ -69,7 +69,7 @@ const Contact = () => {
               color: "#000",
             }}
             href="/resume.pdf"
-            download="Veda_Shiva_Prasad_Resume.pdf"
+            download="Veda_Shiva_Prasad_Resume"
             style={styles.resumeBtn}
           >
             RESUME ↗
