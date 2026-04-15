@@ -1,70 +1,154 @@
-# Getting Started with Create React App
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ✦ Veda Shiva Prasad — Developer Portfolio
 
-## Available Scripts
+**MERN Stack Developer &nbsp;·&nbsp; MCA 2025 Graduate &nbsp;·&nbsp; Hyderabad, India**
 
-In the project directory, you can run:
+[![Live Portfolio](https://img.shields.io/badge/🚀%20Live%20Portfolio-Visit%20Now-00d4ff?style=for-the-badge&logo=vercel&logoColor=white)](https://veda-shiva-portfolio.vercel.app)
+&nbsp;
+[![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+&nbsp;
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-black?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+&nbsp;
+[![Vercel](https://img.shields.io/badge/Deployed%20on%20Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌐 Live Demo
 
-### `npm test`
+> **[https://veda-shiva-portfolio.vercel.app](https://veda-shiva-portfolio.vercel.app)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Auto-deployed from the `main` branch via Vercel — always up to date.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✦ What's Inside
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Section      | Description                                             |
+| :----------- | :------------------------------------------------------ |
+| **Hero**     | Animated intro with name, role, and call-to-action      |
+| **About**    | Personal background, education, and journey             |
+| **Skills**   | Full tech stack displayed with animated skill cards     |
+| **Projects** | Featured full-stack projects with live links and GitHub |
+| **Contact**  | Email · LinkedIn · GitHub · Resume download             |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Layer               | Technology                             |
+| :------------------ | :------------------------------------- |
+| **Framework**       | React.js (Create React App)            |
+| **Animations**      | Framer Motion                          |
+| **Styling**         | CSS-in-JS · Glassmorphism · Dark Theme |
+| **Deployment**      | Vercel                                 |
+| **Package Manager** | npm                                    |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Featured Projects
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### SplitMate — Group Expense Splitter
 
-## Learn More
+> Full-stack MERN application to split group expenses with real-time balance tracking
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Stack:** React + Vite · Node.js · Express · MongoDB Atlas
+- **Frontend** deployed on Vercel · **Backend** deployed on Render
+- **Key Features:** JWT authentication · Per-user data isolation · CSV & JSON export · Photo upload · Dark/Light theme persistence
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔗 [Live App](https://split-mate-frontend.vercel.app) &nbsp;|&nbsp; [GitHub Repo](https://github.com/Veda-Shiva-Prasad/SplitMate)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🏕️ Wanderlust — Rental Listing Platform
 
-### Analyzing the Bundle Size
+> Full-stack property listing and rental platform inspired by Airbnb
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **Stack:** Node.js · Express · MongoDB · EJS templating
+- **Key Features:** CRUD listings · User authentication · Image uploads · Map integration
 
-### Making a Progressive Web App
+🔗 [GitHub Repo](https://github.com/Veda-Shiva-Prasad/wanderlust)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📁 Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+veda-shiva-portfolio/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── veda2.jpeg
+│   └── Veda_Shiva_Prasad_Resume.pdf
+├── src/
+│   └── components/
+│       ├── Hero.js
+│       ├── About.js
+│       ├── Skills.js
+│       ├── Projects.js
+│       ├── Contact.js
+│       └── Background.js
+├── package.json
+└── README.md
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🧑‍💻 Run Locally
 
-### `npm run build` fails to minify
+```bash
+# 1. Clone the repository
+git clone https://github.com/Veda-Shiva-Prasad/veda-shiva-portfolio.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 2. Move into the directory
+cd veda-shiva-portfolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
+```
+
+Open **[http://localhost:3000](http://localhost:3000)** in your browser.
+
+```bash
+# Build for production
+npm run build
+```
+
+---
+
+## 👤 About Me
+
+I'm **Veda Shiva Prasad** — an MCA graduate (8.9 CGPA) from Hyderabad, Telangana, passionate about building clean, scalable, and user-friendly full-stack web applications.
+
+I specialize in the **MERN stack** with deployed projects on Vercel and Render, and I'm actively upskilling in **Java DSA**, **Docker**, **Kubernetes**, and **CI/CD pipelines**.
+
+Currently seeking **Software Engineer**, **Full Stack Developer**, and **MERN Stack Developer** roles at product-based companies, startups, and fintech firms across India.
+
+---
+
+## 📬 Contact Me
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Gmail-vedashivaprasad97%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vedashivaprasad97@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-vedashivaprasad-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vedashivaprasad)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-Veda--Shiva--Prasad-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Veda-Shiva-Prasad)
+
+</div>
+
+---
+
+<div align="center">
+
+**© 2026 Veda Shiva Prasad &nbsp;·&nbsp; Built with React.js + Framer Motion &nbsp;·&nbsp; Deployed on Vercel**
+
+_If you found this helpful, consider giving the repo a ⭐_
+
+</div>
